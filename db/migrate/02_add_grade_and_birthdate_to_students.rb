@@ -5,6 +5,7 @@ class CreateStudents < ActiveRecord::Migration[5.1]
       t.string  :birthdate
       
       add_column :artists, :favorite_food, :string
+      add_column :artists, :favorite_food, :string
       
       
     end
