@@ -4,8 +4,8 @@ class CreateStudents < ActiveRecord::Migration[5.1]
       t.integer :grade
       t.string  :birthdate
       
-      add_column :students, :grade, :string
-      add_column :students, :favorite_food, :string
+      add_column :students, :grade, :integer
+      add_column :students, :birthdate, :string
       
       
     end
